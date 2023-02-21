@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inner-header .logo{
+    width: 100%;
+}
+.logo img{
+    width: 200px;
+    background-color: aqua;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+.iner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul#main-menu{
+    display:flex;
+}
+ul#main-menu a{
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: black;
+  display: block;
+}
+ul#main-menu a:hover{
+    color: chocolate;
+}
+#banner{
+    background: url(im);
+}
